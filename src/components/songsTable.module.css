@@ -1,0 +1,37 @@
+.tableWrapper {
+  width: 100%;
+  padding: 1rem 2rem;
+  > tr > th {
+    color: #fff;
+    /* width: 5rem; */
+    text-align: left;
+    border-collapse: collapse;
+  }
+  > tr > th:not(:first-child) {
+    text-align: right;
+  }
+   >tr>th:nth-child(2){
+    text-align: left;
+  }
+  > tr > td {
+    color: #fff;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #fff;
+    width: 33%;
+  }
+  > tr > td:not(:first-child) {
+    text-align: right;
+  }
+  >tr>td:nth-child(2){
+    text-align: left;
+  }
+}
+.songWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.songImg {
+  height: 4rem;
+}

@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #34c94b;
+  --secondary-color: #121212;
+  --ternary-color: #ffffff;
+}
+.heroWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.heading p{
+    color: var(--ternary-color);
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+}

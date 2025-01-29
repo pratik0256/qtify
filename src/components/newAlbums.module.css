@@ -1,0 +1,21 @@
+.albumWrapper{
+    padding: 1rem;
+}
+.cardWrapper{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.heading{
+color: #fff;
+margin:0 1rem;
+}
+.subHeadingWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.showAll{
+    color:#34c94b ;
+}

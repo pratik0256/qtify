@@ -1,0 +1,67 @@
+.playerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  box-shadow: 0px 0px 5px 0px rgba(231, 231, 231, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(231, 231, 231, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(231, 231, 231, 0.75);
+}
+.playSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1re0;
+}
+.plyBtn {
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+}
+.songImgSection {
+  display: flex;
+  width: 30%;
+  gap: 1rem;
+}
+.songDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.songName {
+  color: #fff;
+  font-size: 1rem;
+}
+.albumName {
+  color: #fff;
+  font-size: 0.7rem;
+}
+.songTime {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.songWrapper {
+  display: flex;
+}
+.startingTime {
+  width: 10rem;
+  background-color: #34c94b;
+  height: 0.5rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.remainingTime {
+  background-color: #fff;
+  height: 0.5rem;
+
+  width: 20rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.startTime,
+.endTime {
+  color: #fff;
+}

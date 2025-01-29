@@ -1,0 +1,37 @@
+.cardWrapper {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--secondary-color);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.follows {
+  background-color: #121212;
+  color: #fff;
+  margin: 0.4rem 0.6rem;
+  padding: 0.2rem 0.6rem;
+  width: 50%;
+  text-wrap: nowrap;
+  font-size: 0.6rem;
+  border-radius: 10px;
+}
+
+.title {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.albumImg {
+  width: 10rem;
+  height: 10rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
