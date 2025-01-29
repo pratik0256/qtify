@@ -1,48 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 :root {
-  --primary-color: #34c94b;
-  --secondary-color: #121212;
-  --ternary-color: #ffffff;
+  --color-primary: #34C94B; /* You can set this to any color you prefer */
+  --color-black: #000; /* You can set this to any color you prefer */
+  --swiper-theme-color: #34C94B !important;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 body {
-  font-family: "Poppins", serif;
-  background-color: var(--secondary-color);
-  max-width: 1920px;
-  margin: 0 auto;
-}
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.swiper-button-next,
-.swiper-button-prev {
-  background-color: var(--primary-color) !important;
-  color: var(--ternary-color) !important;
-  height: 30px !important;
-  width: 30px !important;
-  border-radius: 50% !important;
-  transform: translate(-50%);
-}
-.swiper-button-prev:after,
-.swiper-button-next:after {
-  font-size: 1rem !important;
-  font-weight: bold !important;
-}
-.swiper-wrapper{
-  padding: 1rem 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
